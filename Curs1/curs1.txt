@@ -1,0 +1,35 @@
+=== curs 1 python ===
+
+comentarii --> #
+nume_variabila = valoare
+data types: int, bool, float, string, etc;
+split la stringuri ---> implicit dupa spatii albe
+
+
+concatenare liste ---> +
+pot contine elemente de diferite tipuri
+
+
+DICTIONAR - hashTable
+
+key - value
+key: - string, numere, [chestii nemodificabile]
+se accesseaza dupa cheie
+
+
+OPERATORI
+	Aritmetici (+, -, *, /, %, **, //)
+	comparare (aceeasi ca in orice limbaj)
+	logici: and, or, not
+	de apartenenta in, not in
+
+
+Bucle:
+	while - la fel
+	for element in colectie  [aproape ca un foreach]
+
+
+print "x {} foo: {} bar: {}".format(x, foo, bar) --- printare formatata
+
+
+
