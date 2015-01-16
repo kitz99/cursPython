@@ -1,0 +1,11 @@
+====================
+====    OOP     ====
+====================
+
+Class
+obiect = NumeClasa()
+
+
+Prefixarea cu un singur underscore ---------------- protected
+__member ------------------------------------------ private
+

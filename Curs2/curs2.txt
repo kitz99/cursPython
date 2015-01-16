@@ -1,0 +1,67 @@
+====================
+====  Curs 2    ====
+====================
+
+metode ptr string:
+	str.join(iterable)
+	str.replace(old, new)
+	str.split(separator)
+	str.isdigit()
+	str.isspace()
+	str.islower()
+
+
+Pentru dictionare
+	constructor d = dict(mere = 5, pere = 7)
+	if key in d ...
+	for key, value in d.iteritems() ...
+
+Secvente (string si liste)
+	apartenenta: x in S
+	y not in s
+	concat: s + t
+	slicing: s[start:end]
+			 s[start:end:step]
+
+Tuple - lista imutabila
+	tup = ()
+	tup = (7, ) -- tuplul cu un singur element
+	pentru tupluri functioneaza metodele pentru secvente
+
+INTERSCHIMBARE:::  a,  b = b, a !!!!
+
+SET
+	- multime neord de elemente
+	- op: intersectie, reuniune, diferenta
+
+functii built-in
+
+	functii de conversie
+	functii matematice
+
+
+Lucru cu fisiere
+ f = open('file.txt', 'r')
+ f.close()
+ 	Metode:
+ 		read() - tot continutul fisierului
+ 		readlines() - toate liniile
+ 		seek() - ca in C
+ 		f.write('ana are mere') - scrie in r
+
+ MODULE
+ 	import <<nume modul>>
+ 	gen de nr aleatoare
+ 		randint(a, b) - intreg aleator intre a si b
+ 		randrange(a, b, stop=1)
+
+ 	gen de nr reale
+ 		random.random()
+
+ 	secvente:
+ 		choice(seq)
+ 		sample(seq, k)
+ 		shuffle(seq)
+
+    Date === modulul date
+    

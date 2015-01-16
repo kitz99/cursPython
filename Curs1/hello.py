@@ -38,7 +38,3 @@ def fact(x):
 		return 1
 	return x * fact(x - 1)
 
-
-# palindrom
-def is_palindrome(str):
-	True if str == ''.join(reversed(str)) else False

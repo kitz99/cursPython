@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>Cel mai facebook</title>
+		<style type="text/css">
+			.post-box{
+				border: #333 thin solid;
+				border-radius: 3px;
+				margin-bottom: 5px;
+				width: 40%;
+				float:left;
+				margin-left: 15px;
+			}
+			.post-content{
+				color: red;
+			}
+			.author{
+				float:right;
+				font-style: italic;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>News feed</h1>
+		{% for postare in postari %}
+		    <div class="post-box">
+			<h4 class="post-content">{{ postare.text }}</h4>
+			<p class="author">posted by: {{ postare.author}}@{{postare.date_added}}</p>
+			</div>
+		{% endfor %}
+	</body>
+</html>
